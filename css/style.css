@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: auto smooth;
+}
+
+.jumbotron {
+  background-image: url('school_background.jpg');
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 150px 0;
+  margin-bottom: 0;
+}
+
+.navbar {
+  background-color: #563d7c;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.navbar-brand:hover{
+  transform: scale(1.1);
+  transition: all ease-in 0.1s;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-nav .nav-link:hover{
+  transform: scale(1.1);
+  font-weight: bold;
+}
+.container {
+  padding: 50px 0;
+}
+
+.card {
+  border: rgb(73, 73, 207);
+
+}
+.navbar-brand{
+  font-style: italic;
+
+}
+#hero{
+  background-image: url(https://images.unsplash.com/photo-1606636660801-c61b8e97a1dc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNjaG9vbHxlbnwwfHwwfHx8MA%3D%3D);
+}
+#aboutus span, #courses h2 {
+  font-weight: bold;
+  color: black;
+  font-family: Georgia;
+  text-transform: uppercase;
+  
+}
+
+#contact{
+  color: white;
+  padding: 0 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img{
+  height: 200px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.card img:hover{
+  transition: all ease-in-out 0.5s;
+  transform: scale(1.01);
+}
+
+.card{
+  box-shadow: 1px 1px 10px; 
+  width: fit-content;
+  height: 580px;
+}
+
+#courses{
+  display: grid;
+  gap: 5px;
+}
